@@ -1,0 +1,24 @@
+/* Write a Java program to create an ArrayList, add elements to it, remove elements, and perform other basic operations, like
+find the first and last element, checking if an element exits, check if the ArrayList is empty or not.*/
+import java.util.*;
+public class ArrayList1 {
+
+	public static void main(String[] args) {
+		
+		// TODO Auto-generated method stub
+     ArrayList<String> cricketrs= new
+    		 ArrayList<String>();
+     cricketrs.add("Virat");
+     cricketrs.add("Rahul");
+     cricketrs.add("SKY");
+     cricketrs.add("Rohit");
+     System.out.println(cricketrs);
+     cricketrs.set(3,"Hardik");
+     System.out.println(cricketrs);
+     System.out.println(cricketrs.get(0));
+     System.out.println(cricketrs.get(3));
+     System.out.println(cricketrs.isEmpty());
+     System.out.println(cricketrs.remove(2));
+     System.out.println(cricketrs);
+     }
+	}
